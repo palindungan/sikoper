@@ -11,8 +11,8 @@
                                      <i class="notika-icon notika-form"></i>
                                  </div>
                                  <div class="breadcomb-ctn">
-                                     <h2>Form Components</h2>
-                                     <p>Welcome to Notika <span class="bread-ntd">Admin Template</span></p>
+                                     <h2>Menu Home</h2>
+                                     <p>Selamat Data nama_pegawai <span class="bread-ntd">(Admin)</span></p>
                                  </div>
                              </div>
                          </div>

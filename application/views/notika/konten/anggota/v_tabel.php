@@ -9,7 +9,8 @@
              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                  <div class="data-table-list">
                      <div class="basic-tb-hd">
-                         <a href="<?= base_url() ?>pegawai/anggota" class="btn btn-default">Kembali</a>
+                         <a href="<?= base_url() ?>pegawai/anggota" class="btn btn-default">Tambah Anggota</a>
+                         <a href="<?= base_url() ?>pegawai/anggota/tabel" class="active btn btn-default">Tabel Anggota</a>
                      </div>
                      <div class="table-responsive">
                          <table id="data-table-basic" class="table table-striped">
@@ -24,12 +25,34 @@
                              </thead>
                              <tbody>
                                  <tr>
-                                     <td>1</td>
+                                     <td>1.</td>
                                      <td>012830121231238</td>
-                                     <td>Rizkika Zakka Palindungan</td>
+                                     <td>Rizkika</td>
                                      <td>Kab Jember, jawa timur</td>
                                      <td>
-                                         <a href="<?= base_url() ?>admin/produk/data_produk/edit_data"> <i class="btn btn-default fa fa-pencil-square"></i></a>
+                                         <a href="<?= base_url() ?>pegawai/anggota/edit"> <i class="btn btn-default fa fa-pencil-square"></i></a>
+                                         <a onclick="return confirm('Yakin ingin menghapus data ?')" href=""><i class="btn btn-default fa fa-trash"></i></a>
+                                     </td>
+                                 </tr>
+
+                                 <tr>
+                                     <td>2.</td>
+                                     <td>012830121231238</td>
+                                     <td>Joko</td>
+                                     <td>Kab Jember, jawa timur</td>
+                                     <td>
+                                         <a href="<?= base_url() ?>pegawai/anggota/edit"> <i class="btn btn-default fa fa-pencil-square"></i></a>
+                                         <a onclick="return confirm('Yakin ingin menghapus data ?')" href=""><i class="btn btn-default fa fa-trash"></i></a>
+                                     </td>
+                                 </tr>
+
+                                 <tr>
+                                     <td>3.</td>
+                                     <td>012830121231238</td>
+                                     <td>Dimas</td>
+                                     <td>Kab Jember, jawa timur</td>
+                                     <td>
+                                         <a href="<?= base_url() ?>pegawai/anggota/edit"> <i class="btn btn-default fa fa-pencil-square"></i></a>
                                          <a onclick="return confirm('Yakin ingin menghapus data ?')" href=""><i class="btn btn-default fa fa-trash"></i></a>
                                      </td>
                                  </tr>

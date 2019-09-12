@@ -97,3 +97,9 @@
 <!-- tawk chat JS
 		============================================ -->
 <script src="<?= base_url() ?>assets/notika/js/tawk-chat.js"></script>
+
+
+<!-- Data Table JS
+		============================================ -->
+<script src="<?= base_url() ?>assets/notika/js/data-table/jquery.dataTables.min.js"></script>
+<script src="<?= base_url() ?>assets/notika/js/data-table/data-table-act.js"></script>

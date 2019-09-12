@@ -6,6 +6,6 @@ class Home extends CI_Controller
 
     public function index()
     {
-        $this->template->load('notika/view_1', 'notika/konten/form/v_form');
+        $this->template->load('notika/view_1', 'notika/konten/home/v_home');
     }
 }

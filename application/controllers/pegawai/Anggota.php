@@ -13,4 +13,9 @@ class Anggota extends CI_Controller
     {
         $this->template->load('notika/view_1', 'notika/konten/anggota/v_tabel');
     }
+
+    public function edit()
+    {
+        $this->template->load('notika/view_1', 'notika/konten/anggota/v_edit');
+    }
 }

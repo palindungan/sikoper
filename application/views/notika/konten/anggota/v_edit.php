@@ -10,8 +10,8 @@
                  <div class="form-element-list">
 
                      <div class="cmp-tb-hd bcs-hd">
-                         <a href="<?= base_url() ?>pegawai/anggota" class="active btn btn-default">Tambah Anggota</a>
-                         <a href="<?= base_url() ?>pegawai/anggota/tabel" class="btn btn-default">Tabel Anggota</a>
+                         <a href="<?= base_url() ?>pegawai/anggota" class="btn btn-default">Tambah Anggota</a>
+                         <a href="<?= base_url() ?>pegawai/anggota/tabel" class="active btn btn-default">Tabel Anggota</a>
                      </div>
                      <div class="cmp-tb-hd bcs-hd">
                          <h2>Form Anggota</h2>
@@ -24,7 +24,7 @@
                                      <i class="fa fa-list-alt"></i>
                                  </div>
                                  <div class="nk-int-st">
-                                     <input type="number" class="form-control" placeholder="NIK">
+                                     <input type="number" class="form-control" placeholder="NIK" value="09123723723">
                                  </div>
                              </div>
                          </div>
@@ -36,7 +36,7 @@
                                      <i class="fa fa-user"></i>
                                  </div>
                                  <div class="nk-int-st">
-                                     <input type="text" class="form-control" placeholder="Nama Lengkap">
+                                     <input type="text" class="form-control" placeholder="Nama Lengkap" value="Dimas">
                                  </div>
                              </div>
                          </div>
@@ -48,7 +48,7 @@
                                      <i class="fa fa-arrow-right"></i>
                                  </div>
                                  <div class="nk-int-st">
-                                     <textarea name="" id="" rows="5" class="form-control" placeholder="Alamat"></textarea>
+                                     <textarea name="" id="" rows="5" class="form-control" placeholder="Alamat"> Kab Lumajang, Jawa Timur</textarea>
                                  </div>
                              </div>
                          </div>
@@ -59,7 +59,7 @@
                      <div class="row">
                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                              <div class="form-group ic-cmp-int form-elet-mg res-mg-fcs">
-                                 <button type="submit" title="Menu Produk" class="btn btn-primary">Submit Data</button>
+                                 <button type="submit" title="Menu Produk" class="btn btn-primary">Simpan Data</button>
                              </div>
                          </div>
                      </div>
