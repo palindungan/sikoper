@@ -11,7 +11,7 @@
 
                     <li>
                         <a href="<?= base_url() ?>pegawai/anggota">
-                            <i class="fa fa-users"></i> Anggota
+                            <i class="fa fa-user-plus"></i> Anggota
                         </a>
                     </li>
 
