@@ -6,6 +6,16 @@ class Pegawai extends CI_Controller
 
     public function index()
     {
-        $this->template->load('notika/view_1', 'notika/konten/home/v_home');
+        $this->template->load('notika/view_1', 'notika/konten/pegawai/v_tambah');
+    }
+
+    public function tabel()
+    {
+        $this->template->load('notika/view_1', 'notika/konten/pegawai/v_tabel');
+    }
+
+    public function edit()
+    {
+        $this->template->load('notika/view_1', 'notika/konten/pegawai/v_edit');
     }
 }
