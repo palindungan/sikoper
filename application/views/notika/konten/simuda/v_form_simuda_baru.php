@@ -1,5 +1,5 @@
  <!-- Breadcomb area Start-->
- <?php $this->load->view("notika/konten/anggota/_partials/breadcomb_edit.php") ?>
+ <?php $this->load->view("notika/konten/simuda/_partials/breadcomb_form.php") ?>
  <!-- Breadcomb area End-->
 
  <!-- Form Element area Start-->
@@ -9,11 +9,6 @@
              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                  <div class="form-element-list">
 
-                     <div class="cmp-tb-hd bcs-hd">
-                         <a href="<?= base_url() ?>pegawai/anggota" class="btn btn-default">Tambah Anggota</a>
-                         <a href="<?= base_url() ?>pegawai/anggota/tabel" class="active btn btn-default">Tabel Anggota</a>
-                     </div>
-
                      <div class="row">
                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                              <div class="form-group ic-cmp-int">
@@ -21,7 +16,7 @@
                                      <i class="fa fa-list-alt"></i>
                                  </div>
                                  <div class="nk-int-st">
-                                     <input type="number" class="form-control" placeholder="NIK" value="09123723723">
+                                     <input type="number" class="form-control" placeholder="   No Rekening">
                                  </div>
                              </div>
                          </div>
@@ -33,19 +28,15 @@
                                      <i class="fa fa-user"></i>
                                  </div>
                                  <div class="nk-int-st">
-                                     <input type="text" class="form-control" placeholder="Nama Lengkap" value="Dimas">
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="row">
-                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                             <div class="form-group ic-cmp-int form-elet-mg res-mg-fcs">
-                                 <div class="form-ic-cmp">
-                                     <i class="fa fa-arrow-right"></i>
-                                 </div>
-                                 <div class="nk-int-st">
-                                     <textarea name="" id="" rows="5" class="form-control" placeholder="Alamat"> Kab Lumajang, Jawa Timur</textarea>
+                                     <div class="bootstrap-select fm-cmp-mg">
+                                         <select class="selectpicker" data-live-search="true">
+                                             <option value="">Cari Anggota</option>
+                                             <option>Dimas</option>
+                                             <option>Kika</option>
+                                             <option>Slamet</option>
+                                             <option>Joko</option>
+                                         </select>
+                                     </div>
                                  </div>
                              </div>
                          </div>
@@ -56,7 +47,7 @@
                      <div class="row">
                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                              <div class="form-group ic-cmp-int form-elet-mg res-mg-fcs">
-                                 <button type="submit" title="Menu Produk" class="btn btn-primary">Simpan Data</button>
+                                 <button type="submit" title="Menu Produk" class="btn btn-primary">Submit Data</button>
                              </div>
                          </div>
                      </div>

@@ -23,7 +23,7 @@
 
                     <li>
                         <a data-toggle="tab" href="#Page">
-                            <i class="fa fa-credit-card"></i> Rekening
+                            <i class="fa fa-credit-card"></i> Simuda
                         </a>
                     </li>
 
@@ -34,10 +34,15 @@
                     <div id="Page" class="tab-pane notika-tab-menu-bg animated flipInX">
                         <ul class="notika-main-menu-dropdown">
                             <li>
-                                <a href="">Pembukaan Baru</a>
+                                <a href="<?= base_url() ?>pegawai/simuda/form_simuda_baru">Form Simuda Baru</a>
                             </li>
+
                             <li>
-                                <a href="">Kelola Rekening</a>
+                                <a href="<?= base_url() ?>pegawai/simuda/kelola_simuda">Kelola Simuda</a>
+                            </li>
+
+                            <li>
+                                <a href="<?= base_url() ?>pegawai/simuda/daftar_nominatif">Daftar Nominatif</a>
                             </li>
                         </ul>
                     </div>

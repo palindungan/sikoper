@@ -13,9 +13,6 @@
                          <a href="<?= base_url() ?>pegawai/anggota" class="active btn btn-default">Tambah Anggota</a>
                          <a href="<?= base_url() ?>pegawai/anggota/tabel" class="btn btn-default">Tabel Anggota</a>
                      </div>
-                     <div class="cmp-tb-hd bcs-hd">
-                         <h2>Form Anggota</h2>
-                     </div>
 
                      <div class="row">
                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
