@@ -1,5 +1,5 @@
  <!-- Breadcomb area Start-->
- <?php $this->load->view("notika/konten/pegawai/_partials/breadcomb.php") ?>
+ <?php $this->load->view("notika/konten/pegawai/_partials/breadcomb_tabel.php") ?>
  <!-- Breadcomb area End-->
 
  <!-- Data Table area Start-->

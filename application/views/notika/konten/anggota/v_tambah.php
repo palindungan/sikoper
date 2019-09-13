@@ -1,5 +1,5 @@
  <!-- Breadcomb area Start-->
- <?php $this->load->view("notika/konten/anggota/_partials/breadcomb.php") ?>
+ <?php $this->load->view("notika/konten/anggota/_partials/breadcomb_tambah.php") ?>
  <!-- Breadcomb area End-->
 
  <!-- Form Element area Start-->

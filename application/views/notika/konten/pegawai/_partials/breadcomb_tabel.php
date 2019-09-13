@@ -10,7 +10,7 @@
                                     <i class="notika-icon notika-form"></i>
                                 </div>
                                 <div class="breadcomb-ctn">
-                                    <h2>Data Pegawai</h2>
+                                    <h2>Tabel Daftar Pegawai</h2>
                                     <p>Selamat Data nama_pegawai <span class="bread-ntd">(Admin)</span></p>
                                 </div>
                             </div>

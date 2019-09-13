@@ -21,11 +21,26 @@
                         </a>
                     </li>
 
+                    <li>
+                        <a data-toggle="tab" href="#Page">
+                            <i class="fa fa-credit-card"></i> Rekening
+                        </a>
+                    </li>
+
                 </ul>
                 <div class="tab-content custom-menu-content">
 
                     <!-- Start tab menu -->
-
+                    <div id="Page" class="tab-pane notika-tab-menu-bg animated flipInX">
+                        <ul class="notika-main-menu-dropdown">
+                            <li>
+                                <a href="">Pembukaan Baru</a>
+                            </li>
+                            <li>
+                                <a href="">Kelola Rekening</a>
+                            </li>
+                        </ul>
+                    </div>
                     <!-- End tab menu -->
 
                 </div>
