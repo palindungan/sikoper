@@ -10,7 +10,7 @@
                                     <i class="notika-icon notika-form"></i>
                                 </div>
                                 <div class="breadcomb-ctn">
-                                    <h2>Daftar Nominatif Simuda</h2>
+                                    <h2>Daftar Nominatif Sijaka</h2>
                                     <p>Selamat Data nama_pegawai <span class="bread-ntd">(Admin)</span></p>
                                 </div>
                             </div>

@@ -1,5 +1,5 @@
  <!-- Breadcomb area Start-->
- <?php $this->load->view("notika/konten/simuda/_partials/breadcomb_kelola.php") ?>
+ <?php $this->load->view("notika/konten/sijaka/_partials/breadcomb_form.php") ?>
  <!-- Breadcomb area End-->
 
  <!-- Form Element area Start-->
@@ -98,8 +98,6 @@
                              </div>
                          </div>
                      </div>
-
-
 
                      <div class="row">
                          <div class="col-lg-5 col-md-5 col-sm-3 col-xs-12">
