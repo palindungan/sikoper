@@ -1,5 +1,5 @@
  <!-- Breadcomb area Start-->
- <?php $this->load->view("notika/konten/anggota/_partials/breadcomb.php") ?>
+ <?php $this->load->view("notika/konten/pegawai/_partials/breadcomb.php") ?>
  <!-- Breadcomb area End-->
 
  <!-- Form Element area Start-->
@@ -10,8 +10,8 @@
                  <div class="form-element-list">
 
                      <div class="cmp-tb-hd bcs-hd">
-                         <a href="<?= base_url() ?>pegawai/anggota" class="btn btn-default">Tambah Anggota</a>
-                         <a href="<?= base_url() ?>pegawai/anggota/tabel" class="active btn btn-default">Tabel Anggota</a>
+                         <a href="<?= base_url() ?>pegawai/pegawai" class="btn btn-default">Tambah Pegawai</a>
+                         <a href="<?= base_url() ?>pegawai/pegawai/tabel" class="active btn btn-default">Tabel Pegawai</a>
                      </div>
                      <div class="cmp-tb-hd bcs-hd">
                          <h2>Form Anggota</h2>
@@ -24,7 +24,7 @@
                                      <i class="fa fa-list-alt"></i>
                                  </div>
                                  <div class="nk-int-st">
-                                     <input type="number" class="form-control" placeholder="NIK" value="09123723723">
+                                     <input type="number" class="form-control" placeholder="NIP" value="09123723723">
                                  </div>
                              </div>
                          </div>

@@ -1,5 +1,5 @@
  <!-- Breadcomb area Start-->
- <?php $this->load->view("notika/konten/anggota/_partials/breadcomb.php") ?>
+ <?php $this->load->view("notika/konten/pegawai/_partials/breadcomb.php") ?>
  <!-- Breadcomb area End-->
 
  <!-- Data Table area Start-->
@@ -9,15 +9,15 @@
              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                  <div class="data-table-list">
                      <div class="basic-tb-hd">
-                         <a href="<?= base_url() ?>pegawai/anggota" class="btn btn-default">Tambah Anggota</a>
-                         <a href="<?= base_url() ?>pegawai/anggota/tabel" class="active btn btn-default">Tabel Anggota</a>
+                         <a href="<?= base_url() ?>pegawai/pegawai" class="btn btn-default">Tambah Pegawai</a>
+                         <a href="<?= base_url() ?>pegawai/pegawai/tabel" class="active btn btn-default">Tabel Pegawai</a>
                      </div>
                      <div class="table-responsive">
                          <table id="data-table-basic" class="table table-striped">
                              <thead>
                                  <tr>
                                      <th>No</th>
-                                     <th>NIK</th>
+                                     <th>NIP</th>
                                      <th>NAMA</th>
                                      <th>ALAMAT</th>
                                      <th>AKSI</th>
@@ -30,7 +30,7 @@
                                      <td>Rizkika</td>
                                      <td>Kab Jember, jawa timur</td>
                                      <td>
-                                         <a href="<?= base_url() ?>pegawai/anggota/edit"> <i class="btn btn-default fa fa-pencil-square"></i></a>
+                                         <a href="<?= base_url() ?>pegawai/pegawai/edit"> <i class="btn btn-default fa fa-pencil-square"></i></a>
                                          <a onclick="return confirm('Yakin ingin menghapus data ?')" href=""><i class="btn btn-default fa fa-trash"></i></a>
                                      </td>
                                  </tr>
@@ -41,7 +41,7 @@
                                      <td>Joko</td>
                                      <td>Kab Jember, jawa timur</td>
                                      <td>
-                                         <a href="<?= base_url() ?>pegawai/anggota/edit"> <i class="btn btn-default fa fa-pencil-square"></i></a>
+                                         <a href="<?= base_url() ?>pegawai/pegawai/edit"> <i class="btn btn-default fa fa-pencil-square"></i></a>
                                          <a onclick="return confirm('Yakin ingin menghapus data ?')" href=""><i class="btn btn-default fa fa-trash"></i></a>
                                      </td>
                                  </tr>
@@ -52,7 +52,7 @@
                                      <td>Dimas</td>
                                      <td>Kab Jember, jawa timur</td>
                                      <td>
-                                         <a href="<?= base_url() ?>pegawai/anggota/edit"> <i class="btn btn-default fa fa-pencil-square"></i></a>
+                                         <a href="<?= base_url() ?>pegawai/pegawai/edit"> <i class="btn btn-default fa fa-pencil-square"></i></a>
                                          <a onclick="return confirm('Yakin ingin menghapus data ?')" href=""><i class="btn btn-default fa fa-trash"></i></a>
                                      </td>
                                  </tr>
@@ -60,7 +60,7 @@
                              <tfoot>
                                  <tr>
                                      <th>No</th>
-                                     <th>NIK</th>
+                                     <th>NIP</th>
                                      <th>NAMA</th>
                                      <th>ALAMAT</th>
                                      <th>AKSI</th>
