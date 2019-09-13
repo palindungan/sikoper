@@ -13,7 +13,7 @@
                          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                              <div class="form-group ic-cmp-int">
                                  <div class="form-ic-cmp">
-                                     <i class="fa fa-truck"></i>
+                                     <i class="fa fa-list-alt"></i>
                                  </div>
                                  <div class="nk-int-st">
                                      <div class="bootstrap-select fm-cmp-mg">
@@ -32,7 +32,7 @@
                          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                              <div class="form-group ic-cmp-int">
                                  <div class="form-ic-cmp">
-                                     <i class="fa fa-truck"></i>
+                                     <i class="fa fa-tag"></i>
                                  </div>
                                  <div class="nk-int-st">
                                      <div class="bootstrap-select fm-cmp-mg">
@@ -76,7 +76,7 @@
                          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                              <div class="form-group ic-cmp-int">
                                  <div class="form-ic-cmp">
-                                     <i class="fa fa-tag"></i>
+                                     <i class="fa fa-calendar"></i>
                                  </div>
                                  <div class="form-group nk-datapk-ctm form-elet-mg" id="data_1">
                                      <div class="input-group date nk-int-st">
